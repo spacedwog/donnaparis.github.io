@@ -138,16 +138,16 @@
 }
 
 @media screen and (max-width: 800px){
-	.superior__secao__container {position:relative}
-	.superior__secao__container ul {background:#444444;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none;text-align:left;}
-	.superior__secao__container ul.sub-menus {width:100%;position:static;}
-	.superior__secao__container ul.sub-menus a {padding-left:30px;}
-	.superior__secao__container li {display:block;float:none;width:auto;}
-	.superior__secao__container input, .superior__secao__container label {position:absolute;top:0;left:0;display:block}
-	.superior__secao__container input {z-index:4}
-	.superior__secao__container input:checked + label {color:#FFFFFF}
-	.superior__secao__container input:checked + label:before {content:"\00d7"}
-	.superior__secao__container input:checked ~ ul {display:block}
+	#menu {position:relative}
+	#menu ul {background:#444444;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none;text-align:left;}
+	#menu ul.sub-menus {width:100%;position:static;}
+	#menu ul.sub-menus a {padding-left:30px;}
+	#menu li {display:block;float:none;width:auto;}
+	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
+	#menu input {z-index:4}
+	#menu input:checked + label {color:#FFFFFF}
+	#menu input:checked + label:before {content:"\00d7"}
+	#menu input:checked ~ ul {display:block}
 }
 
     @media(min-width: 1440px) {
