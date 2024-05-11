@@ -139,10 +139,6 @@
 
     @media(min-width: 1440px) {
 
-        .superior__secao__container{
-            display: none;
-        }
-
         /* MENU */ 
 
         .menu__container {
