@@ -113,10 +113,6 @@
         display: block;
     }
 
-    .superior__secao__container{
-        display: none;
-    }
-
     /* MENU LATERAL ADICIONADO NA ATIVIDADE EXTRA */
 
     .menu__container {
@@ -142,6 +138,10 @@
 }
 
     @media(min-width: 1440px) {
+
+        .superior__secao__container{
+            display: none;
+        }
 
         /* MENU */ 
 
